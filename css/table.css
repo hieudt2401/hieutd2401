@@ -1,0 +1,33 @@
+@media (min-width: 768px) and (max-width: 1023px) {
+    #nav-bar>.container>.text-nav{
+        display: none;
+    }
+    #job-info>.container{
+        display: grid;
+        grid-column: auto auto ;
+    }
+    .cer-content{
+        flex-direction: column;
+        gap:30px;
+    }
+    .section-container{
+        display: block;
+        
+   }
+   .goals{
+    border-bottom: 20px solid blue;
+   }
+   .team{
+    border-bottom: 20px solid blue;
+   }
+   .scope{
+    border-bottom: 20px solid blue;
+   }
+   .primary{
+    border-bottom: 20px solid blue;
+   }
+   .timeline{
+    border-bottom: 20px solid blue;
+   }
+}
+

@@ -1,0 +1,61 @@
+@media (min-width: 320px) and (max-width: 767px) {
+    
+    #nav-bar>.container>.text-nav{
+        display: none;
+    }
+    #nav-bar{
+        display: block ;
+        height: auto;
+    }
+    #nav-bar>.container{
+        display: block;
+        padding: 10px;
+        border-left: none;
+        height: auto;
+        border-right: none;
+    }
+    #nav-bar>.container>a{
+        border-right: none;
+    }
+    #nav-bar>.container>a:first-child{
+        border-left: none;
+    }
+    .content{
+        display: grid;
+        grid-column: auto;
+        height: auto;
+    }
+    .cer-content{
+        border-left: 0;
+        border-top: 2px solid rgb(188, 128, 16);
+        padding-top: 20px;  
+        display: block;
+    }
+    #footer a:link{
+        margin-right: 10px;
+ 
+   }
+   .section-container{
+        display: block;
+        
+   }
+   .goals{
+    border-bottom: 20px solid blue;
+   }
+   .team{
+    border-bottom: 20px solid blue;
+   }
+   .scope{
+    border-bottom: 20px solid blue;
+   }
+   .primary{
+    border-bottom: 20px solid blue;
+   }
+   .timeline{
+    border-bottom: 20px solid blue;
+   }
+   #job-info>.container{
+    display: flex;
+   }
+}
+    

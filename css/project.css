@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.section-container{
+    border: 20px solid blue;
+    background-color: blue;
+    width: auto;
+    height: auto;
+    display: grid;
+    grid-template-columns: 49% 24% 24%;
+    grid-template-rows: auto auto;
+    gap: 20px;
+    grid-template-areas: 'AA BB CC'
+                         'DD EE CC'  ;
+    
+}
+
+
+
+.goals{
+    background-color:rgb(233, 246, 241) ;
+    font-size: auto;
+    min-height: 370px;
+    
+    grid-area: AA;
+}
+.scope{
+    background-color:rgb(233, 246, 241) ;
+    min-height: 100px;
+    
+    grid-area: DD;
+
+}
+.team{
+    
+    min-height: 370px;
+    background-color:rgb(233, 246, 241) ;
+    grid-area: BB;
+}
+.member{
+    margin-left: 20px;
+    line-height: 35px;
+
+   
+}
+.primary{
+    min-height: 200px;
+    background-color:rgb(233, 246, 241) ;
+    grid-area: EE;
+}
+.timeline{
+    background-color:rgb(233, 246, 241) ;;
+    grid-area:CC ;
+    line-height: 35px;
+} 
+.text-container{
+    margin: 5px;
+    color: rgb(56, 56, 241);
+    font-size: 24px;
+    border-bottom: 1px solid black;
+}
+.section-target{
+    display: grid;
+    grid-template-columns: 10% 70%;
+    align-items: center;
+}
+.br-bt{
+    border-bottom: 2px dotted #56ffaa;
+}
+.icon{
+    font-size: 10px;
+    width: 20px;
+    margin-left: 25%;
+}
+.section-scope{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: 10px;
+
+}
+.scope-container{
+    margin-left: 10px;
+}
+.text-section{
+    font-weight: bolder;
+}
+.team-container{
+    display: grid;
+    grid-template-columns: 10% 90%;
+    align-items: center;
+}
+.number-section{
+    width: 30px;
+    height: 30px;
+    background-color: rgb(173, 130, 238);
+    border-radius:50%;
+    line-height: 30px;
+    text-align: center;
+    margin-left: 25%;
+
+}
+.target-container{
+    margin-left: 10px;
+}
